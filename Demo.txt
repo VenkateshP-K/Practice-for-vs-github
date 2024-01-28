@@ -1,8 +1,8 @@
 for demo
 git init (initialising) bridge for local system to cloud storage
-remote add to store in a particular repositor
-remote -v from which repositor to download and get
-add . meants add every file to the folder
+git remote add origin (to store in a particular repositor)
+remote -v (from which repositor to fetch and push)
+add . (meants add every file to the folder)
 commit meants save
 branch information is "main". now github converted its branches from master to main.so, we use the branch as main.
 day 02 of git session
