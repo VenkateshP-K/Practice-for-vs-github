@@ -1,0 +1,21 @@
+.heading {
+    background-color: brown;
+    text-align: center;
+    color: white;
+  }
+
+  u {
+    color: orange;
+  }
+
+  .main {
+    color: red;
+  }
+
+  body {
+    background-color: rgb(234, 234, 179);
+  }
+
+  * {
+    margin: 0px
+  }
