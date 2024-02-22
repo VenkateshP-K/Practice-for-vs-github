@@ -1,4 +1,3 @@
-//Table 
 function create_tr(){
     var tr = document.createElement("tr");
     return tr; 
@@ -40,17 +39,9 @@ var td1 = create_td("td","mark")
 var td2 = create_td("td","otto")
 var td3 = create_td("td","@otto")
 
-var tbody1 = document.createElement("tbody1");
-var body_tr = create_tr();
-var body_th = create_th("th","scope","row","2");
-var td1 = create_td("td","jacob")
-var td2 = create_td("td","thornton")
-var td3 = create_td("td","@fat")
-
-
 body_tr.append(body_th,td1,td2,td3);
 tbody.append(body_tr);
 
 
-table.append(thead,tbody,tbody1)
+table.append(thead,tbody)
 document.body.append(table)

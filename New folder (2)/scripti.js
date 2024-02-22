@@ -62,6 +62,6 @@ var pwbreak = break_create();
 
 var button = document.createElement("button")
 button.setAttribute("type","button")
-button.innerHTML="Submit"
+button.setAttribute("Submit","foo()")
 
 document.body.append(firstname,fbreak,finput,f1break,middlename,mbreak,minput,m1break,Lastname,lbreak,linput,l1break,email,ebreak,einput,embreak,password,passbreak,passinput,pwbreak,button,);
