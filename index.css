@@ -1,0 +1,15 @@
+body{
+    text-align: center;
+}
+input{
+    margin-top: 50px;
+    width:25%;
+}
+h5{
+    margin-top: 50px;
+    color:blue
+}
+button{
+    color:turquoise;
+    margin:10px;
+}
