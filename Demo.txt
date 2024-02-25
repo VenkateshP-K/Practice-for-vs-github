@@ -5,4 +5,15 @@ remote -v (from which repositor to fetch and push)
 add . (meants add every file to the folder)
 commit meants save
 branch information is "main". now github converted its branches from master to main.so, we use the branch as main.
+git push main origin.
 day 02 of git session
+
+Advance Js 
+  *callback
+  *promise
+  *fetch
+  *async
+  *await
+
+
+
