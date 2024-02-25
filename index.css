@@ -1,5 +1,6 @@
 body{
     text-align: center;
+    background-color:aquamarine;
 }
 input{
     margin-top: 50px;
@@ -7,9 +8,9 @@ input{
 }
 h5{
     margin-top: 50px;
-    color:blue
+    color:dodgerblue;
 }
 button{
-    color:turquoise;
+    color:forestgreen;
     margin:10px;
 }

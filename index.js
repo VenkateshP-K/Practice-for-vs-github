@@ -1,5 +1,5 @@
 var heading = document.createElement("h5");
-heading.innerHTML="DOB calculator"
+heading.innerHTML="Age calculator"
 
 var date = document.createElement("input")
 date.setAttribute("type","date");
@@ -10,9 +10,6 @@ button.setAttribute("type","button");
 button.className="btn-btn-primary";
 button.innerHTML="Submit"
 button.addEventListener("click",date_data,res)
-button.addEventListener("click",res);
-
-document.body.append(heading,date,button);
 
 function date_data(){
     var input = document.getElementById("dob").value;
@@ -38,10 +35,11 @@ function date_data(){
     console.log(yeardiff)
 
     var monthdiff = (yeardiff*12)+(current_date.getMonth()-input_date.getMonth());
-    console.log(monthdiff)
+    console.log(monthdiff);
 }
-var res = document.createElement("re")
-res.textContent=document.getElementById("date_data")
-button.append(res)
+function res(){
+    var ele = document.getElementById("date_data").value
+    console.log(ele)
+}
 
-
+document.body.append(heading,date,button);
