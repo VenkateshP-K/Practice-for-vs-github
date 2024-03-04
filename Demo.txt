@@ -15,5 +15,24 @@ Advance Js
   *async
   *await
 
-
-
+Async and (await) functions;
+/* async function foo(){
+    let res = await fetch("https://data.covid19india.org/v4/min/data.min.json")
+    let res01 = await res.json();
+    console.log(res01);
+   }
+   foo()
+async function foo(){
+    var ele = await fetch("https://restcountries.com/v3.1/all")
+    var ele2 = await ele.json()
+    for (var i=0;i<ele2.length;i++){
+        var lat = ele2[i].latlng
+        bar(...lat)
+    }
+}
+   async function bar(lat,lon){
+    var ele = await fetch("https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid=8c21f9beb03fdd7fdc44ac76aecb21ca")
+    var ele2 = await ele.json() 
+    console.log(ele2.main.temp) 
+ }
+  foo()*/
